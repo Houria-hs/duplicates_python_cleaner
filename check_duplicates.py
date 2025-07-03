@@ -30,7 +30,6 @@ def main():
     results = service.files().list(
         pageSize=1000, fields="nextPageToken, files(id, name, md5Checksum)").execute()
     items = results.get('files', [])
-
     if not items:
         print('No files found.')
     else:
@@ -41,15 +40,24 @@ def main():
     seen = {}
     duplicates = []
 
+    protected_extensions = ['.exe', '.bat', '.py']
+    protected_names = ['__pycache__', '.git']   
+
     for file in items:
         name = file['name']
         md5 = file.get('md5Checksum')
+        if any(name.endswith(ext) for ext in protected_extensions):
+            print(f"Skipping protected file (extension): {name}")
+            continue
+        if any(protected in name for protected in protected_names):
+            print(f"Skipping protected file (name): {name}")
+            continue
         key = (name , md5)
         if key in seen:
             duplicates.append(file)
         else:
             seen[key] = file['id']
-    print("Found duplicates:")
+    print("Found duplicates")
     confirm = input("Delete duplicates? (yes/no): ")
     if confirm.lower() == "yes":
         for dup in duplicates:
