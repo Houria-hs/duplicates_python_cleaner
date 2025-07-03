@@ -83,7 +83,10 @@ def main():
     
                 # Send via Gmail SMTP
                 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
-                    smtp.login('houriahasbell@gmail.com', os.getenv("EMAIL_APP_PASSWORD"))
+                    app_password = os.getenv("EMAIL_APP_PASSWORD")
+                    if not app_password:
+                        raise ValueError("EMAIL_APP_PASSWORD is not set in environment variables.")
+                    smtp.login('houriahasbell@gmail.com', app_password)
                     smtp.send_message(msg)
         else:
             print("No files deleted.")
