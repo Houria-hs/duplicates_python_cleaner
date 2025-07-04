@@ -4,16 +4,17 @@ import os.path
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
-from googleapiclient.discovery import build
+from googleapiclient.discovery import build 
 import smtplib
 from email.message import EmailMessage
+from datetime import datetime
 
 SCOPES = ['https://www.googleapis.com/auth/drive']
 
-def list_files_recursive(service, folder_id):
+def list_files_recursive(service, folder_id , log):
     files = []
 
-    def list_folder(fid):
+    def list_folder(fid, path):
         query = f"'{fid}' in parents"
         results = service.files().list(
             q=query,
@@ -24,14 +25,19 @@ def list_files_recursive(service, folder_id):
         items = results.get('files', [])
         for item in items:
             if item['mimeType'] == 'application/vnd.google-apps.folder':
-                list_folder(item['id'])
+                log.write(f"📁 Entering folder: {path}/{item['name']}\n")
+                list_folder(item['id'], f"{path}/{item['name']}")
             else:
+                log.write(f"📄 Found file: {path}/{item['name']}\n")
+                item['path'] = f"{path}/{item['name']}"
                 files.append(item)
 
-    list_folder(folder_id)
+    list_folder(folder_id, "")
     return files
 
 def main():
+    log_file = open("scan_log.txt", "w", encoding="utf-8")
+    log_file.write(f"🔍 Scan started: {datetime.now()}\n")
     creds = None
     if os.path.exists('token.json'):
         creds = Credentials.from_authorized_user_file('token.json', SCOPES)
@@ -46,8 +52,8 @@ def main():
 
     service = build('drive', 'v3', credentials=creds)
 
-    folder_id = os.getenv('FOLDER_ID')
-    items = list_files_recursive(service, folder_id)
+    folder_id = '1ko86lS8OlSLLzBK71KG7Y2sqnVpCJY83'
+    items = list_files_recursive(service, folder_id, log_file)
 
     seen_md5 = {}
     duplicates = []
@@ -58,16 +64,16 @@ def main():
     for file in items:
         name = file['name']
         md5 = file.get('md5Checksum')
+        if not md5:
+            log_file.write(f"⚠️ Skipping (no md5): {file['path']}\n")
+            continue
 
         if any(name.endswith(ext) for ext in protected_extensions):
-            print(f"Skipping protected file (extension): {name}")
-            continue
-        if any(protected in name for protected in protected_names):
-            print(f"Skipping protected file (name): {name}")
+            log_file.write(f"🚫 Skipping protected file (extension): {file['path']}\n")
             continue
 
-        if not md5:
-            print(f"Skipping {name}: no MD5 checksum (can’t safely check duplicate)")
+        if any(protected in name for protected in protected_names):
+            log_file.write(f"🚫 Skipping protected file (name): {file['path']}\n")
             continue
 
         if md5 in seen_md5:
@@ -83,10 +89,12 @@ def main():
             for dup in duplicates:
                 try:
                     service.files().delete(fileId=dup['id']).execute()
-                    print(f"Deleted: {dup['name']} ({dup['id']})")
-                    deleted_files.append(dup['name'])
+                    log_file.write(f"✅ Deleted: {dup['path']}\n")
+                    print(f"Deleted: {dup['path']}")
+                    deleted_files.append(dup['path'])
                 except Exception as e:
-                    print(f"Failed to delete {dup['name']}: {e}")
+                    log_file.write(f"❌ Failed to delete {dup['path']}: {e}\n")
+                    print(f"Failed to delete {dup['path']}: {e}")
 
             if deleted_files:
                 msg = EmailMessage()
@@ -102,9 +110,14 @@ def main():
                     smtp.login('houriahasbell@gmail.com', app_password)
                     smtp.send_message(msg)
         else:
+            log_file.write("User canceled deletion.\n")
             print("No files deleted.")
     else:
+        log_file.write("✅ No duplicates found.\n")
         print('No duplicates found.')
+
+    log_file.write(f"🔚 Scan finished: {datetime.now()}\n")
+    log_file.close()
 
 if __name__ == '__main__':
     main()

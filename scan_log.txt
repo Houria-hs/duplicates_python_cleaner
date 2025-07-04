@@ -1,0 +1,20 @@
+🔍 Scan started: 2025-07-04 15:56:05.397164
+📁 Entering folder: /june
+📁 Entering folder: /june/rap
+📄 Found file: /june/rap/IMG_0284.HEIC
+📁 Entering folder: /june/hype
+📄 Found file: /june/hype/IMG_3113.HEIC
+📁 Entering folder: /june/classic
+📄 Found file: /june/classic/theimage.jpeg
+📄 Found file: /june/7db30a7d-cee8-41fc-9e5a-09fe6d771647.jpeg
+📄 Found file: /june/8b5fff1a-1b4c-4f5a-a2d6-7e2808de3f1b.jpeg
+📁 Entering folder: /may
+📁 Entering folder: /may/rap
+📁 Entering folder: /may/hype
+📁 Entering folder: /may/classic
+📁 Entering folder: /april
+📁 Entering folder: /april/rap
+📁 Entering folder: /april/hype
+📁 Entering folder: /april/classic
+✅ No duplicates found.
+🔚 Scan finished: 2025-07-04 15:56:10.648106
