@@ -46,7 +46,7 @@ def main():
 
     service = build('drive', 'v3', credentials=creds)
 
-    folder_id = '1ko86lS8OlSLLzBK71KG7Y2sqnVpCJY83'
+    folder_id = os.getenv('FOLDER_ID')
     items = list_files_recursive(service, folder_id)
 
     seen_md5 = {}
