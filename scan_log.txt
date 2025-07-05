@@ -1,20 +1,163 @@
-🔍 Scan started: 2025-07-04 15:56:05.397164
-📁 Entering folder: /june
-📁 Entering folder: /june/rap
-📄 Found file: /june/rap/IMG_0284.HEIC
-📁 Entering folder: /june/hype
-📄 Found file: /june/hype/IMG_3113.HEIC
-📁 Entering folder: /june/classic
-📄 Found file: /june/classic/theimage.jpeg
-📄 Found file: /june/7db30a7d-cee8-41fc-9e5a-09fe6d771647.jpeg
-📄 Found file: /june/8b5fff1a-1b4c-4f5a-a2d6-7e2808de3f1b.jpeg
-📁 Entering folder: /may
-📁 Entering folder: /may/rap
-📁 Entering folder: /may/hype
-📁 Entering folder: /may/classic
-📁 Entering folder: /april
-📁 Entering folder: /april/rap
-📁 Entering folder: /april/hype
-📁 Entering folder: /april/classic
+🔍 Scan started: 2025-07-04 22:50:27.338669
+📁 Entering folder: /FEB - 2025
+📁 Entering folder: /FEB - 2025/Classic
+📄 Found file: /FEB - 2025/Classic/L'amore dice ciao (From La matriarca - The Libertine).mp3
+📄 Found file: /FEB - 2025/Classic/QKThr.mp3
+📄 Found file: /FEB - 2025/Classic/hotline bling (billie Version).mp3
+📁 Entering folder: /FEB - 2025/Hype
+📄 Found file: /FEB - 2025/Hype/Roi (Instrumental).mp3
+📄 Found file: /FEB - 2025/Hype/Mareux - The Perfect Girl (Official Music Video).mp3
+📄 Found file: /FEB - 2025/Hype/AFROBEAT INSTRUMENTAL - DARLING.mp3
+📁 Entering folder: /FEB - 2025/Inspiring
+📄 Found file: /FEB - 2025/Inspiring/golden hour (piano instrumental).mp3
+📄 Found file: /FEB - 2025/Inspiring/i was only temporary.mp3
+📄 Found file: /FEB - 2025/Inspiring/Sparky Deathcap - September (Instrumental).mp3
+📄 Found file: /FEB - 2025/Inspiring/Whatcha Gonna Do.mp3
+📁 Entering folder: /FEB - 2025/Motivational
+📄 Found file: /FEB - 2025/Motivational/Sub Urban - Cradles (Instrumental Beat Remake by N.F.M.) 4k 60fps.mp3
+📄 Found file: /FEB - 2025/Motivational/Tommy Richman - MILLION DOLLAR BABY (Lyrics).mp3
+📄 Found file: /FEB - 2025/Motivational/After Hours (Instrumental).mp3
+📁 Entering folder: /FEB - 2025/Podcast
+📄 Found file: /FEB - 2025/Podcast/LAKEY INSPIRED - Chill Day.mp3
+📁 Entering folder: /JAN - 2025
+📁 Entering folder: /JAN - 2025/Motivational
+📄 Found file: /JAN - 2025/Motivational/Really Slow Motion - The 25th Hour.mp3
+📄 Found file: /JAN - 2025/Motivational/Gravity.mp3
+📄 Found file: /JAN - 2025/Motivational/Sahara Sands.mp3
+📄 Found file: /JAN - 2025/Motivational/AShamaluevMusic - Cinematic Documentary (128 kbps).mp3
+📄 Found file: /JAN - 2025/Motivational/Blast Off Music - Eternal Journey - 0:04.mp3
+📄 Found file: /JAN - 2025/Motivational/Ben Dransfield - Inspiration -2.mp3
+📄 Found file: /JAN - 2025/Motivational/Mr.Kitty - After Dark - 0:58.mp3
+📄 Found file: /JAN - 2025/Motivational/NBSPLV - The Lost Soul Down - 0:17.mp3
+📄 Found file: /JAN - 2025/Motivational/Sergio Valentino - Lost Forever - 0:16.mp3
+📄 Found file: /JAN - 2025/Motivational/The Weeknd - After Hours - 2:30.mp3
+📄 Found file: /JAN - 2025/Motivational/Izzamuzzic - Положение (Remix) .mp3
+📁 Entering folder: /JAN - 2025/Hype
+📄 Found file: /JAN - 2025/Hype/M83 - Midnight City (Instrumental).mp4
+📄 Found file: /JAN - 2025/Hype/Eternxlkz - SLAY!.mp3
+📄 Found file: /JAN - 2025/Hype/Doja Cat  - Streets - ( Instrumental ).mp3
+📄 Found file: /JAN - 2025/Hype/Mae Stephens - If We Ever Broke Up (Instrumental).mp3
+📄 Found file: /JAN - 2025/Hype/Ogryzek - AURA Slowed (Official Visualiser).mp3
+📄 Found file: /JAN - 2025/Hype/Sirocco.mp3
+📄 Found file: /JAN - 2025/Hype/BAD BUNNY - MONACO - 0:19.mp4
+📄 Found file: /JAN - 2025/Hype/The Tututu - Call Me ( Slowed + Reverb).mp3
+📄 Found file: /JAN - 2025/Hype/juno, blindheart - Solitude - 0:16.mp3
+📄 Found file: /JAN - 2025/Hype/LXNGVX - Montagem Mysterious Game (Official Music) - 0:06.mp3
+📄 Found file: /JAN - 2025/Hype/Ogryzek - Glory - 0:22.mp3
+📄 Found file: /JAN - 2025/Hype/ProdMarvin - Otra Vez - 0:19.mp4
+📄 Found file: /JAN - 2025/Hype/Travis Scott - FE!N ft. Playboi Carti - 0:30.mp3
+📄 Found file: /JAN - 2025/Hype/HXVRMXN - スピードデーモン.mp4
+📄 Found file: /JAN - 2025/Hype/Gustavo Bravetti - Babel.mp4
+📁 Entering folder: /JAN - 2025/Classic
+📄 Found file: /JAN - 2025/Classic/Feeling Blue - Calleb Arredondo.mp4
+📄 Found file: /JAN - 2025/Classic/FKJ & Masego - Tadow.mp4
+📄 Found file: /JAN - 2025/Classic/Dorian Marko - Cornfield Chase (Interstellar Piano Cover).mp3
+📄 Found file: /JAN - 2025/Classic/Phantom Highway.mp3
+📄 Found file: /JAN - 2025/Classic/ჩუბინა.mp3
+📄 Found file: /JAN - 2025/Classic/Tollan Kim - Aesthetic.mp3
+📄 Found file: /JAN - 2025/Classic/Gibran Alcocer - Idea Z - 0:30.mp3
+📄 Found file: /JAN - 2025/Classic/Tom Rosenthal - Lights Are On.mp3
+📄 Found file: /JAN - 2025/Classic/Joel Sunny - Luminary.mp4
+📄 Found file: /JAN - 2025/Classic/Blast Off Music - The King's Ballad.mp3
+📄 Found file: /JAN - 2025/Classic/Izzamuzzic - Shootout (Slowed + Reverb) - 0:41.mp3
+📄 Found file: /JAN - 2025/Classic/Izzamuzzic, Julien Marchal - Shootout - 0:32.mp3
+📄 Found file: /JAN - 2025/Classic/Øneheart, reidenshi - snowfall - 0:18.mp3
+📁 Entering folder: /JAN - 2025/Podcast
+📄 Found file: /JAN - 2025/Podcast/Plage Coquillage - Tao Mon Amour.mp4
+📄 Found file: /JAN - 2025/Podcast/Travis Scott - SDP Interlude (Instrumental) UTOPIA.mp3
+📄 Found file: /JAN - 2025/Podcast/AShamaluevMusic - Documentary Piano.mp3
+📄 Found file: /JAN - 2025/Podcast/KA$TRO - IN ESSENCE - 0:37.mp3
+📄 Found file: /JAN - 2025/Podcast/Tom Rosenthal - Lights Are On.mp3
+📄 Found file: /JAN - 2025/Podcast/NBSPLV-The Lost Soul Down.mp3
+📄 Found file: /JAN - 2025/Podcast/LAKEY INSPIRED - Better Days.mp4
+📁 Entering folder: /JAN - 2025/Inspiring
+📄 Found file: /JAN - 2025/Inspiring/Gibran Alcocer - Idea 10 (Sped Up).mp3
+📄 Found file: /JAN - 2025/Inspiring/Gibran Alcocer - Idea 10.mp3
+📄 Found file: /JAN - 2025/Inspiring/Flawed Mangoes - Dramamine - 0:32.mp3
+📄 Found file: /JAN - 2025/Inspiring/Joy Again - Looking Out for You - 0:10.mp3
+📄 Found file: /JAN - 2025/Inspiring/Ka$tro - In Essence - 0:37.mp3
+📄 Found file: /JAN - 2025/Inspiring/Kaleo - Way Down We Go (Slowed + reverb) - 0:29.mp3
+📄 Found file: /JAN - 2025/Inspiring/Soap&Skin - Me And The Devil - 0:06.mp3
+📄 Found file: /JAN - 2025/Inspiring/me and the devil - instrumental - 0:06.mp3
+📄 Found file: /JAN - 2025/Inspiring/Else - Paris - 0:32.mp3
+📄 Found file: /JAN - 2025/Inspiring/Kxllswxtch - WASTE (Lyrics) - 0:42.mp3
+📄 Found file: /JAN - 2025/Inspiring/Rauf _ Faik - я люблю тебя давно.mp3
+📄 Found file: /JAN - 2025/Inspiring/Ravens Rock - Polozhenie.mp3
+📄 Found file: /JAN - 2025/Inspiring/Ravens Rock - Sweet Dreams.mp3
+📄 Found file: /JAN - 2025/Inspiring/Hans Zimmer - Interstellar Main Theme.mp3
+📁 Entering folder: /MARCH - 2025
+📁 Entering folder: /MARCH - 2025/Podcast
+📄 Found file: /MARCH - 2025/Podcast/HOME - Resonance.mp3
+📄 Found file: /MARCH - 2025/Podcast/Chromas - Three Tabs.mp3
+📄 Found file: /MARCH - 2025/Podcast/Kyle Dixon & Michael Stein - Stranger Things.mp3
+📄 Found file: /MARCH - 2025/Podcast/AGNT - drowning.mp3
+📄 Found file: /MARCH - 2025/Podcast/Dkj - Aces.mp3
+📁 Entering folder: /MARCH - 2025/Motivational
+📄 Found file: /MARCH - 2025/Motivational/Warriyo - Mortals.mp3
+📄 Found file: /MARCH - 2025/Motivational/UMBASA - SACRED.mp3
+📄 Found file: /MARCH - 2025/Motivational/Eternal Raijin - La Espada.mp3
+📄 Found file: /MARCH - 2025/Motivational/My Head is Empty - I Was Only Temporary.mp3
+📄 Found file: /MARCH - 2025/Motivational/K08beatz - Low Key Gliding.mp3
+📄 Found file: /MARCH - 2025/Motivational/Eternxlkz - SLAY!.mp3
+📄 Found file: /MARCH - 2025/Motivational/Dxrk - RAVE.mp3
+📁 Entering folder: /MARCH - 2025/Inspiring
+📄 Found file: /MARCH - 2025/Inspiring/Say Yes To Heaven x Shootout.mp3
+📄 Found file: /MARCH - 2025/Inspiring/VØJ, Narvent - Memory Reboot.mp3
+📄 Found file: /MARCH - 2025/Inspiring/Synthwave goose - Blade Runner 2049.mp3
+📄 Found file: /MARCH - 2025/Inspiring/Blue Bunny - You Look Lonely.mp3
+📄 Found file: /MARCH - 2025/Inspiring/CXSPER - Yasashi.mp3
+📄 Found file: /MARCH - 2025/Inspiring/Danilo Stankovic - Pieces.mp3
+📄 Found file: /MARCH - 2025/Inspiring/Mckyyy - Roi.mp3
+📄 Found file: /MARCH - 2025/Inspiring/Indila - Love Story.mp3
+📄 Found file: /MARCH - 2025/Inspiring/The xx - Intro.mp3
+📄 Found file: /MARCH - 2025/Inspiring/Richy Mitch & The Coal Miners - Evergreen.mp3
+📄 Found file: /MARCH - 2025/Inspiring/Beach House - Space Song.mp3
+📄 Found file: /MARCH - 2025/Inspiring/Nujabes - Aruarian Dance.mp3
+📄 Found file: /MARCH - 2025/Inspiring/Ludwig Göransson - Can You Hear The Music.mp3
+📁 Entering folder: /MARCH - 2025/Hype
+📄 Found file: /MARCH - 2025/Hype/Ptasinski & Rj Pasin - Surrender.mp3
+📄 Found file: /MARCH - 2025/Hype/Videoclub - Roi.mp3
+📄 Found file: /MARCH - 2025/Hype/Ogryzek - EMPIRE.mp3
+📄 Found file: /MARCH - 2025/Hype/Ogryzek - AUTHORITY.mp3
+📄 Found file: /MARCH - 2025/Hype/Fam0uz - Nightcrawler.mp3
+📄 Found file: /MARCH - 2025/Hype/Christopher Lenertz - I Can Do Anything  Finale.mp3
+📄 Found file: /MARCH - 2025/Hype/Adore - Did I Tell U That I Miss U.mp3
+📄 Found file: /MARCH - 2025/Hype/Nazo - Ma Nana.mp3
+📄 Found file: /MARCH - 2025/Hype/LeoKarlo - Black Heart.mp3
+📄 Found file: /MARCH - 2025/Hype/Vowl & Sace - 2000.mp3
+📁 Entering folder: /MARCH - 2025/Classic
+📄 Found file: /MARCH - 2025/Classic/Gibran Alcocer - Idea 10 (Sped Up).mp3
+📄 Found file: /MARCH - 2025/Classic/Kilgore Doubtfire - Escape.mp3
+📄 Found file: /MARCH - 2025/Classic/Patrick Watson - Je te laisserai des mots.mp3
+📄 Found file: /MARCH - 2025/Classic/Ludovico Einaudi - Experience.mp3
+📄 Found file: /MARCH - 2025/Classic/Adrian Berenguer - Little Things.mp3
+📄 Found file: /MARCH - 2025/Classic/Jamie Duffy - Solas.mp3
+📄 Found file: /MARCH - 2025/Classic/Txmy - Ethereal.mp3
+📄 Found file: /MARCH - 2025/Classic/Sparky Deathcap - September.mp3
+📁 Entering folder: /MAY - 2025
+📁 Entering folder: /MAY - 2025/Classic
+📄 Found file: /MAY - 2025/Classic/Vraell - Between.mp3
+📄 Found file: /MAY - 2025/Classic/Frank Ocean - Pink + White(instrumental).mp3
+📄 Found file: /MAY - 2025/Classic/Crystal Waters - Gypsy Woman (She's Homeless) (Official instrumental).mp3
+📄 Found file: /MAY - 2025/Classic/Connie Francis - Pretty Little Baby.mp3
+📄 Found file: /MAY - 2025/Classic/Chezile - Beanie (Lyrics).mp3
+📄 Found file: /MAY - 2025/Classic/VANO 3000 - Running Away (Extended Version)  with [adult swim] Tiktok Visuals.mp3
+📁 Entering folder: /MAY - 2025/Hype
+📄 Found file: /MAY - 2025/Hype/Bliss - Klsr.mp3
+📄 Found file: /MAY - 2025/Hype/future - luvin' on yo body (let me know) [future only].mp3
+📄 Found file: /MAY - 2025/Hype/Quality Control, Lil Baby, & DaBaby - ＂Baby＂ (Instrumental).mp3
+📄 Found file: /MAY - 2025/Hype/ATLXS - PASSO BEM SOLTO (SLOWED).mp3
+📄 Found file: /MAY - 2025/Hype/United In Grief - Kendrick Lamar edit audio.mp3
+📁 Entering folder: /MAY - 2025/Inspiring
+📄 Found file: /MAY - 2025/Inspiring/Will Paquin - Chandelier (Official Audio).mp3
+📄 Found file: /MAY - 2025/Inspiring/Aloboi - Want To Love (Just Raw).mp3
+📄 Found file: /MAY - 2025/Inspiring/Father Stretch My Hands Pt. 1.mp3
+📄 Found file: /MAY - 2025/Inspiring/Billie Eilish - BIRDS OF A FEATHER (Official Instrumental).mp3
+📄 Found file: /MAY - 2025/Inspiring/Pharrell Williams - Freedom (Audio).mp3
+📄 Found file: /MAY - 2025/Inspiring/MGMT - Little Dark Age (Lyrics).mp3
+📁 Entering folder: /MAY - 2025/Motivational
+📄 Found file: /MAY - 2025/Motivational/Gorillaz - Feel Good Inc (Lyrics).mp3
+📄 Found file: /MAY - 2025/Motivational/kendrick lamar - united in grief (official instrumental).mp3
+📁 Entering folder: /MAY - 2025/Podcast
 ✅ No duplicates found.
-🔚 Scan finished: 2025-07-04 15:56:10.648106
+🔚 Scan finished: 2025-07-04 22:50:58.956796

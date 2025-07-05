@@ -25,10 +25,12 @@ def list_files_recursive(service, folder_id , log):
         items = results.get('files', [])
         for item in items:
             if item['mimeType'] == 'application/vnd.google-apps.folder':
+                # print(f"📁 Folder: {path}/{item['name']}")
                 log.write(f"📁 Entering folder: {path}/{item['name']}\n")
                 list_folder(item['id'], f"{path}/{item['name']}")
             else:
                 log.write(f"📄 Found file: {path}/{item['name']}\n")
+                # print(f"📄 File: {path}/{item['name']} (ID: {item['id']})")
                 item['path'] = f"{path}/{item['name']}"
                 files.append(item)
 
@@ -52,7 +54,7 @@ def main():
 
     service = build('drive', 'v3', credentials=creds)
 
-    folder_id = '1ko86lS8OlSLLzBK71KG7Y2sqnVpCJY83'
+    folder_id = os.getenv('FOLDER_ID')
     items = list_files_recursive(service, folder_id, log_file)
 
     seen_md5 = {}
@@ -98,16 +100,16 @@ def main():
 
             if deleted_files:
                 msg = EmailMessage()
-                msg['Subject'] = 'Duplicate files deleted'
+                msg['Subject'] = 'Duplicate files deleted!'
                 msg['From'] = 'Python_duplicates_remover'
-                msg['To'] = 'houriahasbell@gmail.com'
+                msg['To'] = 'visionpulse00@gmail.com'
                 msg.set_content(f"The following files were deleted because they were duplicates:\n\n" + "\n".join(deleted_files))
 
                 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
-                    app_password = os.getenv("EMAIL_APP_PASSWORD")
+                    app_password = os.getenv('EMAIL_APP_PASSWORD')
                     if not app_password:
                         raise ValueError("EMAIL_APP_PASSWORD is not set in environment variables.")
-                    smtp.login('houriahasbell@gmail.com', app_password)
+                    smtp.login('visionpulse00@gmail.com', app_password)
                     smtp.send_message(msg)
         else:
             log_file.write("User canceled deletion.\n")
