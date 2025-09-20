@@ -4,7 +4,7 @@ A simple Python tool that scans a Google Drive folder, finds duplicate music fil
 Optionally, it sends an email notification with the deleted file list.
 ---
 
-🚀 Features
+🚀 Features**
 🔍 Recursively scans a Google Drive folder and subfolders.
 🗂️ Detects duplicate files by comparing MD5 checksums.
 ✅ Skips protected files (.exe, .bat, .py) and system folders (__pycache__, .git).
@@ -13,7 +13,7 @@ Optionally, it sends an email notification with the deleted file list.
 📝 Logs all actions in scan_log.txt.
 ---
 
-⚙️ How It Works
+⚙️ How It Works**
 Authenticates with Google Drive using OAuth.
 Recursively lists all files inside the specified folder.
 Checks files’ MD5 checksums to find duplicates.
@@ -24,7 +24,7 @@ Sends you an email report.
 Creates a detailed log file for every run.
 ---
 
-📌 Requirements
+📌 Requirements**
 Python 3.x
 Google Drive API enabled in your Google Cloud project.
 credentials.json file from Google Cloud OAuth consent screen.
@@ -32,7 +32,7 @@ token.json will be created on first run.
 Google App Password (if using Gmail to send email).
 ---
 
-🛠️ Setup
+🛠️ Setup**
 1️⃣ Clone the repository:
 git clone https://github.com/yourusername/music-duplicate-cleaner.git
 cd music-duplicate-cleaner
